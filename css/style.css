@@ -1,0 +1,160 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	border: 0;
+	color: #ffffff;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #f1dd3f;
+}
+
+.navbar-brand {
+	float: left;
+	min-height: 50px;
+	padding: 0 15px 5px;
+}
+
+.navbar-brand img {
+	max-width: 25%;
+	max-height: 99%;
+    position: absolute;
+    top: 50%;
+	transform: translateY(-50%);
+	margin-left: 5%;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #f1dd3f;
+	border: 1px solid #f1dd3f;
+}
+
+.navbar-inverse .navbar-nav  li a {
+	color: #d5d5d5;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav  li a:hover {
+	color: #f1dd3f;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}
+
+/*
+.item img {
+	width: 100%;
+} 
+*/
+
+
+.img-element {
+	border-radius: 10em;
+}
+
+.img-element1 {
+	border-radius: 6em;
+}
+
+.btn {
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #ffffff;
+	padding: 12px 22px;
+	background: #222222;
+	border: 1px solid #f1dd3f;
+	transition: all 0.4s ease-in-out;
+	width: 6em;
+}
+
+.btn:hover {
+	border: 1px solid #f1dd3f;
+	background: transparent;
+	color: #ffffff;
+}
+
+#icon {
+	max-width: 15em;
+	margin: 3% auto;
+}
+
+.text-center h2 {
+	margin-top: 1em;
+}
+
+.text-img {
+	margin-top: 2.5em;
+	background: #222222;
+	color: #ffffff;
+	padding: 1.5em;
+}
+
+.text-img-text-img {
+	margin: 2em 0;
+}
+
+footer {
+	width: 100%;
+	background: #222222;
+	padding: 5%;
+	color: #ffffff;
+}
+
+footer h3 {
+	font-weight: 700;
+	color: #f1dd3f;
+}
+
+.fa {
+	padding: 15px;
+	margin: 0 0.5em;
+	font-size: 25px;
+	color: #ffffff;
+	transition: all 0.4s ease-in-out;
+}
+
+.fa:hover {
+	color: #f1dd3f;
+	text-decoration: none;
+	border: 2px solid #f1dd3f;
+	border-radius: 50px;
+}
+
+/*---------- Media Query ---------- */
+
+
+@media (max-width: 644px) {
+	.carousel-caption {
+		display: none;
+	}
+
+	#icon {
+		max-width: 13em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	h4 {
+		font-size: 1.3em;
+	}
+}
+
+@media (max-width: 900px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
